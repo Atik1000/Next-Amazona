@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
     }
   }, []);
   return (
-       <StoreProvider>
+    <StoreProvider>
       <Component {...pageProps} />
     </StoreProvider>
   );
